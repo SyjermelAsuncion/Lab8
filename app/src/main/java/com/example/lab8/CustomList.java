@@ -69,4 +69,8 @@ public class CustomList extends ArrayAdapter<City> {
             throw new IllegalArgumentException("City does not exist in the list.");
         }
     }
+
+    public int countCities() {
+    }
 }
+
